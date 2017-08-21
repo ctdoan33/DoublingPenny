@@ -21,10 +21,4 @@ daysNeeded(10000);
 // making 1 billion
 daysNeeded(1000000000);
 // having Infinity
-sum = 0;
-var daily = 0.01;
-for (var i = 0; sum != Infinity; i++){
-    sum += daily;
-    daily *= 2;
-}
-console.log(i);
+daysNeeded(Infinity);
